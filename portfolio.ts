@@ -12,42 +12,43 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
+  name: 'MS',
+  title: "Je suis Muthuvel SAVOUNDIRAPANDIANE",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+    "Je suis un junior développeur passionné Full Stack ayant une expérience dans le développement d'applications web avec Python, Django, React.js ainsi que dans le domaine du Big Data avec Hadoop, Spark, MongoDB, PyTorch et l'utilisation d'outils tels que Docker et Kubernetes.",
   resumeLink:
+  // change this link to your resume
     'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'Muthuvel15',
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
+  url: 'https://github.com/Muthuvel15',
+  linkedin: 'https://www.linkedin.com/in/muthuvel-savoundirapandiane/',
+  github: 'https://github.com/Muthuvel15',
+  // instagram: 'https://www.instagram.com/__hanzla100',
+  // facebook: 'https://www.facebook.com/1hanzla100',
   twitter: 'https://twitter.com/1hanzla100',
 };
 
 export const skillsSection: SkillsSectionType = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: 'Je suis un développeur Full Stack passionné qui souhaite explorer toutes les piles technologiques possibles.',
   data: [
     {
       title: 'Full Stack Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
+          '⚡ Construction de Single-Page-Apps (SPA) et PWA réactives en React.js'
         ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        emoji('⚡ Construction de sites web statiques et réactifs en utilisant Next.js'),
+        emoji('⚡ Construction d'+'API RESTful en Django et Django REST Framework'),
       ],
       softwareSkills: [
         {
@@ -97,13 +98,11 @@ export const skillsSection: SkillsSectionType = {
       title: 'Cloud Infra-Architecture',
       lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ Experience of working on multiple cloud platforms'),
+        emoji('⚡ Expérience de travail sur plusieurs plates-formes cloud (AWS, Azure)'),
         emoji(
-          '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
+          '⚡ Hébergement et maintenance de sites web sur des instances de machine virtuelle avec intégration de bases de données'
         ),
-        emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
-        ),
+       
       ],
       softwareSkills: [
         // ? Check README To get icon details
@@ -150,43 +149,47 @@ export const skillsSection: SkillsSectionType = {
       ],
     },
     {
-      title: 'Blockchain',
-      lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
+      title: 'Big Data & Data Science',
+      lottieAnimationFile: '/lottie/skills/Bigdata.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
+          '⚡ Connaissance des technologies Big Data telles que Hadoop, NoSQL, Spark, Hive, Pig, Cassandra, etc.'
         ),
         emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
+          '⚡ Capacité à développer des pipelines de données'
         ),
         emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
+          '⚡ Capacité à concevoir des modèles de données'
         ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
+        emoji("⚡ Connaissance des outils d'analyse de données tels que R et Python"),
         emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
+          "⚡ Capacité à créer des visualisations de données pour communiquer les résultats de l'analyse"
         ),
       ],
       softwareSkills: [
         {
-          skillName: 'Ethereum',
-          fontAwesomeClassName: 'logos:ethereum',
+          skillName: 'hadoop',
+          fontAwesomeClassName: 'logos:hadoop',
         },
         {
-          skillName: 'Solidity',
-          fontAwesomeClassName: 'logos:solidity',
+          skillName: 'spark',
+          fontAwesomeClassName: 'logos:spark',
         },
         {
-          skillName: 'Web3js',
-          fontAwesomeClassName: 'logos:web3js',
+          skillName: 'python',
+          fontAwesomeClassName: 'logos:python',
         },
         {
-          skillName: 'Metamask',
-          fontAwesomeClassName: 'logos:metamask-icon',
+          skillName: 'grunt',
+          fontAwesomeClassName: 'logos:grunt',
         },
         {
-          skillName: 'Ganache',
-          fontAwesomeClassName: 'logos:ganache-icon',
+          skillName: 'mongodb',
+          fontAwesomeClassName: 'logos:mongodb',
+        },
+        {
+          skillName: 'MariaDB',
+          fontAwesomeClassName: 'logos:mariadb',
         },
       ],
     },
@@ -210,51 +213,73 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
+    schoolName: 'IPSSI ',
+    subHeader: 'Mastère Dev, Bigdata & IA',
+    duration: 'September 2022 - April 2024',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      "Développement JS, Big Data, Open Source, Webscraping, gestion de projet, ITIL, ERP, CRM, BI, architecture web et mobile, cohérence et procédures d'exploitation, développement de frameworks, bases de données, Python, R, architectures cloud, conduite de projets data, veille technologique.",
+    ]
+  },
+  {
+    schoolName: 'Université-paris-saclay',
+    subHeader: "Licence pro Développement avancé d’applications Web Internet et Intranet",
+    duration: 'September 2021 - September 2022',
+    descBullets: [
+      "Modéliser des données pour mieux intégrer les services web, concevoir et réaliser des sites web Intranet et Internet, CMS, programmer côté client et serveur.",
+      "Développer des applications WEB à partir des langages de haut niveau après avoir défini avec le client les besoins et le cahier des charges.",
+      "Intégrer des services et des applications WEB aussi bien pour un Intranet que pour l’Internet.",
+      "Maîtriser et paramétrer les outils de collaboration entre les applications web.",
+    ],
+  },
+  {
+    schoolName: 'Lycée Léonard de Vinci de Melun',
+    subHeader: 'BTS Services Informatiques aux Organisations (Option: Solutions Logicielles et Applications Métiers)',
+    duration: 'September 2019 - juillet 2021',
+    descBullets: [
+      'Enseignement de spécialité : Solutions Logicielles et Applications Métiers (SLAM)',
+      'Projets Personnalisés Encadrés',
+      'Analyse Économique, Managériale et Juridique des services informatiques',
+      'Mathématiques pour l'+'informatique : Mathématiques, Algorithmique appliquée',
+      'Expression et Communication en langue anglaise',
+      'Culture Générale et Expression',
+      'Enseignement facultatif : Mathématiques approfondies',
     ],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
+    role: 'Ingénieur de support Applicatif (en alternance)',
+    company: 'Manutan',
+    companyLogo: '/img/icons/common/Manutan.jpg',
+    date: 'September 2021 – present',
+    desc: "En tant ingénieur de support, j'ai analysé, diagnostiqué et résolu les incidents de l'e-commerce. J'ai également assuré le bon fonctionnement des solutions en place, suivi les travaux d'amélioration et automatisé certaines tâches de support tout en documentant les processus techniques.",
   },
   {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
-  },
-  {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
+    role: 'WordPress Developer',
+    company: 'Comité Handball Seine-et-Marne',
+    companyLogo: '/img/icons/common/Comité_Handball_Seine-et-Marne.jpeg',
+    date: 'Jan 2021 – férvier 2021',
+    desc: 'Mission : Développement site Ecommerce WordPress',
+    descBullets: [
+      'Création du site Ecommerce WordPress',
+      'Programmation événementielle en JavaScript',
+      'Intégration de la solution de paiement Stripe',
+      'Téléchargements des différents fichiers PDF, gestion de planifications en utilisant API Google agenda)',
+      'Déploiement site internet sur l hébergeur (ionos.fr)',
+],
+  
   },
   {
     role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
+    company: 'Manutan',
+    companyLogo: '/img/icons/common/Manutan.jpg',
+    date: 'juin 2020 - juillet 2020',
+    // desc: 'Mission : Programmation en Script Shell pour automatiser les tâches administratives de Webmaster',
+    desc: "Ma mission consistait à transférer les données de la base de données Oracle vers un fichier CSV, que j'ai ensuite transmis d'un serveur à un autre via le serveur FTP. J'ai également mis en place un système d'envoi automatique des fichiers CSV au webmaster via le serveur messagerie STMP. J'ai documenté l'ensemble du projet pour une meilleure traçabilité et une facilité de maintenance ultérieure. Tout au long de cette mission, j'ai travaillé en étroite collaboration avec les différents acteurs impliqués pour assurer la qualité et la fiabilité des livrables dans les délais impartis.",
+  
   },
+  
 ];
 
 export const projects: ProjectType[] = [
@@ -281,37 +306,36 @@ export const projects: ProjectType[] = [
   },
 ];
 
-export const feedbacks: FeedbackType[] = [
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-];
+// export const feedbacks: FeedbackType[] = [
+//   {
+//     name: 'John Smith',
+//     feedback:
+//       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+//   },
+//   {
+//     name: 'John Smith',
+//     feedback:
+//       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+//   },
+// ];
 
 // option to hide or show the ContactUs component
 export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Muthuvel SAVOUNDIRAPANDIANE | Portfolio',
   description:
     'A passionate Full Stack Web Developer and Blockchain Developer.',
   author: 'Hanzla Tauqeer',
   image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
   url: 'https://developer-portfolio-1hanzla100.vercel.app',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
+    'Muthuvel',
+    'Muthuvel SAVOUNDIRAPANDIANE',
+    'Muthuvel SAVOUNDIRAPANDIANE Portfolio',
+    'Muthuvel SAVOUNDIRAPANDIANE Portfolio Website',
     'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'Portfolio Website',
   ],
 };

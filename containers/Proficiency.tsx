@@ -14,7 +14,7 @@ const Proficiency = () => {
               <h1 className="h1">Proficiency</h1>
               {SkillBars.map((skill) => {
                 return (
-                  <div className="progress-info" key={skill.Stack}>
+                  <div className="progress-indigo" key={skill.Stack}>
                     <div className="progress-label">
                       <span>{skill.Stack}</span>
                     </div>
